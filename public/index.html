@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">  
+    <head>
+        <title>Mapa 3D OSM</title>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+        <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet"  charset="utf-8" />
+        <link href='assets/css/styles.css' rel='stylesheet' charset="utf-8" />
+
+        <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"  charset="utf-8"></script>
+        <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+        <script src="assets/js/Constants.js" type="text/javascript" charset="utf-8"></script>
+        <script src="assets/js/MapOSM.js" type="text/javascript" charset="utf-8"></script>
+        <!-- <script src="assets/js/MapaOSM.js" type="text/javascript" charset="utf-8"></script> -->
+    </head>
+    <body onLoad="loadMap()">
+        Mapa 3D OSM usando MapBox
+        <div id="map" style="width: 800px; height: 450px; border: 1px solid #AAA;"></div>
+    </body>
+</html>
