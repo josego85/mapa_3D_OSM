@@ -1,5 +1,7 @@
 # mapas_3d
-Ejemplos de uso de mapas 3D con datos OSM usando la librería MapBox
+Ejemplos de uso de mapas 3D:
+* Map.js: mapa que muestra datos OSM.
+* Mapa.js: mapa que muestra datos geográficos.
 
 
 Herramientas de desarrollo:
